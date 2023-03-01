@@ -119,9 +119,8 @@ body {
 }
 
 /* LOGOUT CSS */
-@import url(https://fonts.googleapis.com/css?family=Oswald:400);
 
-.navigation {
+/* .navigation {
   width: 100%;
   background-color: black;
 }
@@ -152,7 +151,7 @@ img {
   margin: 15px;
   color: white;
   width: 25px;
-  /* background-color: black; */
+  background-color: black;
   transition: width 0.35s;
   -webkit-transition: width 0.35s;
   overflow: hidden;
@@ -168,4 +167,4 @@ a:hover .logout {
 
 a {
   text-decoration: none;
-}
+} */
