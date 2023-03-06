@@ -1,125 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400);
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-body {
-  background-color: rgb(89, 89, 89);
-}
-
-/* Navbar CSS */
-.navbar {
-  display: flex;
-  /* flex-direction: row; */
-  justify-content: flex-end;
-  height: 200px;
-  border: 1px solid red;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
-  /* flex-wrap: nowrap; */
-}
-
-.links {
-  height: 100%;
-  display: flex;
-  gap: 20px;
-  /* justify-content: center; */
-  align-items: center;
-}
-
-.link {
-  list-style: none;
-  text-decoration: none;
-  color: rgb(10, 8, 8);
-}
-
-.user {
-  display: flex;
-  position: relative;
-  height: 100%;
-  margin-left: 50px;
-  align-items: center;
-  gap: 25px;
-}
-
-/* Profile Picture */
-
-/* .avatar {
-  height: 40px;
-  position: relative;
-  width: 40px;
-}
-
-.avatar img {
-  border-radius: 9999px;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  z-index: 2;
-}
-
-@keyframes cycle-colors {
-  0% {
-    border-color: hsl(0, 100%, 50%);
-  }
-  25% {
-    border-color: hsl(90, 100%, 50%);
-  }
-  50% {
-    border-color: hsl(180, 100%, 50%);
-  }
-  75% {
-    border-color: hsl(270, 100%, 50%);
-  }
-  100% {
-    border-color: hsl(360, 100%, 50%);
-  }
-}
-
-@keyframes pulse {
-  to {
-    opacity: 0;
-    transform: scale(1);
-  }
-} */
-
-/* .avatar::before,
-.avatar::after {
-  animation: pulse 2s linear infinite;
-  border: #fff solid 8px;
-  border-radius: 9999px;
-  box-sizing: border-box;
-  content: " ";
-  height: 140%;
-  left: -20%;
-  opacity: 0.6;
-  position: absolute;
-  top: -20%;
-  transform: scale(0.714);
-  width: 140%;
-  z-index: 1;
-}
-
-.avatar::after {
-  animation-delay: 1s;
-}
-
-.avatar:hover::before,
-.avatar:hover::after {
-  animation: pulse 1s linear infinite, cycle-colors 6s linear infinite;
-}
-
-.avatar:hover::after {
-  animation-delay: 0.5s;
-} */
-
-/* LoginFORM CSS */
-/* html {
+html {
   height: 100%;
 }
 body {
@@ -127,7 +6,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: linear-gradient(#141e30, #243b55);
-} */
+}
 
 .login-box {
   position: absolute;
@@ -193,7 +72,7 @@ body {
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
-  margin-top: 4px;
+  margin-top: 40px;
   letter-spacing: 4px;
 }
 
