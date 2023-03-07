@@ -40,6 +40,19 @@ export const Navbar = () => {
           </>
         )}
       </div>
+
+      <section>
+        <nav className="stroke">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Log In</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </div>
   );
 };
